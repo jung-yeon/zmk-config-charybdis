@@ -7,7 +7,7 @@ include:
 # Standalone mode - right keyboard is primary/central
 - board: nice_nano//zmk
   shield: charybdis_right_standalone
-  snippet: studio-rpc-usb-uart
+  snippet: zmk-usb-logging
   cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
 
 # Dongle mode - prospector dongle is primary/central with display, right is peripheral
