@@ -250,11 +250,11 @@
             label = "SYMBOLS";
             display-name = "Symbols";
             bindings = <
-&kp GRAVE  &trans     &trans     &trans     &trans     &trans     &trans             &trans     &trans    &trans    &trans     &trans
-&kp TILDE  &kp SQT    &kp LT     &kp GT     &kp DQT    &kp DOT            &kp COMMA  &kp AMPS   &kp LBKT  &kp RBKT  &kp PRCNT  &trans
-&trans     &kp EXCL   &kp MINUS  &kp PLUS   &kp EQUAL  &kp UNDER          &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &trans
-&trans     &kp CARET  &kp FSLH   &kp ASTRK  &kp BSLH   &kp HASH           &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &trans
-           &trans     &trans     &trans     &trans     &trans     &trans             &trans               &trans
+&kp GRAVE  &trans     &trans     &trans     &bt BT_PRV  &bt BT_NXT  &trans             &trans     &trans    &trans    &trans     &trans
+&kp TILDE  &kp SQT    &kp LT     &kp GT     &kp DQT     &kp DOT             &kp COMMA  &kp AMPS   &kp LBKT  &kp RBKT  &kp PRCNT  &trans
+&trans     &kp EXCL   &kp MINUS  &kp PLUS   &kp EQUAL   &kp UNDER           &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &trans
+&trans     &kp CARET  &kp FSLH   &kp ASTRK  &kp BSLH    &kp HASH            &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &trans
+           &trans     &trans     &trans     &trans      &trans      &trans             &trans               &trans
             >;
         };
 
